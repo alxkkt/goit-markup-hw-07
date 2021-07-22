@@ -1,0 +1,36 @@
+:root {
+	--primary-color: #212121;
+	--link-logo-color: #2196f3;
+	--description-color: #757575;
+	--prime-white-color: #ffffff;
+	--footer-color: #2f303a;
+	--team-dscrp-color: #f5f4fa;
+	--header-border-color: #ececec;
+	--icon-color: #afb1b8;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	background: var(--prime-white-color);
+	color: var(--primary-color);
+}
+
+.logo-prefix,
+.navmenu-item.current,
+.navmenu-item:hover,
+.navmenu-item:focus,
+.contacts-header-link-mail:hover,
+.contacts-header-link-mail:focus,
+.contacts-header-link-phone:hover,
+.contacts-header-link-phone:focus,
+.contacts-link-mail-footer:focus,
+.contacts-link-phone-footer:focus,
+.contacts-link-mail-footer:hover,
+.contacts-link-phone-footer:hover,
+.customers-list-item-link:hover,
+.customers-list-item-link:focus,
+.navmenu-item.current::after,
+.navmenu-item:hover::after,
+.navmenu-item:focus::after {
+	color: var(--link-logo-color);
+}

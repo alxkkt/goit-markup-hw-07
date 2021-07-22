@@ -1,0 +1,21 @@
+.title-button {
+	cursor: pointer;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.89;
+	text-align: center;
+	letter-spacing: 0.06em;
+	border-radius: 4px;
+	border-style: none;
+
+	padding: 10px 32px;
+	color: var(--prime-white-color);
+	background-color: var(--link-logo-color);
+
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+	&:hover,
+	&:focus {
+		background-color: #188ce8;
+	}
+}

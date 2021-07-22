@@ -1,0 +1,31 @@
+.social-links-list-footer {
+	display: flex;
+}
+
+.social-links-item.footer {
+	fill: var(--prime-white-color);
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 50%;
+
+	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+	&:hover,
+	&:focus {
+		background-color: var(--link-logo-color);
+	}
+}
+
+.social-links-list-footer-link {
+	&:not(:last-child) {
+		margin-right: 10px;
+	}
+}
+
+.subscribe-sign {
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.87;
+	letter-spacing: 0.06em;
+	color: var(--prime-white-color);
+}

@@ -164,8 +164,6 @@ img {
 .contacts-header-link-mail:focus,
 .contacts-header-link-phone:hover,
 .contacts-header-link-phone:focus,
-.contacts-link-mail-footer,
-.contacts-link-phone-footer,
 .contacts-link-mail-footer:focus,
 .contacts-link-phone-footer:focus,
 .contacts-link-mail-footer:hover,
@@ -386,6 +384,14 @@ img {
 	align-items: center;
 }
 
+.close-button:hover {
+	color: var(--link-logo-color);
+}
+
+.icon-close {
+	fill: currentColor;
+}
+
 .modal-button-submit {
 	color: var(--prime-white-color);
 	background-color: var(--link-logo-color);
@@ -601,7 +607,6 @@ img {
 	margin-left: 30px;
 	margin-top: 30px;
 	flex-basis: calc(100% / 4 - 30px);
-	display: flexbox;
 }
 
 .member-name {
@@ -888,6 +893,7 @@ img {
 .footer-links {
 	margin-left: 70px;
 }
+
 .social-links-list-footer {
 	display: flex;
 }
@@ -959,6 +965,7 @@ img {
 }
 
 .subscribe-sign {
+	font-family: inherit;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.87;
