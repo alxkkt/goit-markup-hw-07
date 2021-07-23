@@ -9,12 +9,6 @@
   --icon-color: #afb1b8;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-  background: var(--prime-white-color);
-  color: var(--primary-color);
-}
-
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -24,6 +18,12 @@ body {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--prime-white-color);
+  color: var(--primary-color);
 }
 
 h1,
