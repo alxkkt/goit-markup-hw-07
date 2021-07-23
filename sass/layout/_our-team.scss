@@ -1,8 +1,8 @@
-.section.team {
+.our-team__section {
 	background-color: var(--team-dscrp-color);
 }
 
-.our-team {
+.our-team-list {
 	display: flex;
 	flex-wrap: wrap;
 
@@ -10,7 +10,7 @@
 	margin-top: -30px;
 }
 
-.member {
+.our-team__card {
 	background-color: var(--prime-white-color);
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
@@ -20,7 +20,11 @@
 	flex-basis: calc(100% / 4 - 30px);
 }
 
-.member-name {
+.our-team__card-content {
+	padding: 30px 32px;
+}
+
+.our-team__card-name {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.19;
@@ -29,11 +33,7 @@
 	text-align: center;
 }
 
-.member-content {
-	padding: 30px 32px;
-}
-
-.member-position {
+.our-team__card-position {
 	color: var(--description-color);
 	font-size: 16px;
 	line-height: 1.19;

@@ -7,14 +7,17 @@
 @import "./base/commom";
 @import "./base/container";
 @import "./base/section";
-@import "./base/hero-section";
+@import "./base/title-section";
 
 // COMPONENTS
 
+@import "./components/logo";
+@import "./components/button";
 @import "./components/backdrop";
+@import "./components/subtitle";
 @import "./components/footer-button";
 @import "./components/modal-button";
-@import "./components/button-title";
+@import "./components/title-button";
 @import "./components/modal-form-footer";
 @import "./components/modal-form";
 @import "./components/modal-window";
@@ -32,5 +35,3 @@
 @import "./layout/pageheader";
 @import "./layout/title";
 @import "./layout/what-we-do";
-
-//

@@ -2,32 +2,15 @@
 	background-color: var(--footer-color);
 }
 
-.footer > .container {
+.footer__container {
 	display: flex;
 	flex-direction: row;
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
 
-.logo-footer {
-	display: block;
-	margin-bottom: 20px;
-
-	font-family: Raleway, sans-serif;
-	font-weight: 700;
-	font-size: 26px;
-	line-height: 1.19;
-	letter-spacing: 0.03em;
-	font-style: normal;
-}
-
-.logo-suffix {
-	color: var(--prime-white-color);
-}
-
 .location {
 	display: inline-block;
-	margin-bottom: 9px;
 	margin-top: 0;
 
 	color: var(--prime-white-color);
@@ -37,8 +20,7 @@
 	font-style: normal;
 }
 
-.contacts-link-mail-footer,
-.contacts-link-phone-footer {
+.contacts-link-footer {
 	display: block;
 
 	font-size: 14px;
@@ -46,15 +28,17 @@
 	letter-spacing: 0.03em;
 	color: rgba(255, 255, 255, 0.6);
 	font-style: normal;
+	margin-top: 9px;
 
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+	&:hover,
+	&:focus {
+		color: var(--link-logo-color);
+	}
 }
 
-.contacts-link-mail-footer {
-	margin-bottom: 9px;
-}
-
-.footer-title {
+.footer-links__title {
 	color: var(--prime-white-color);
 	font-weight: 700;
 	font-size: 14px;

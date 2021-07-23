@@ -1,23 +1,21 @@
-.section.hero {
+.filter__section {
 	padding-bottom: 0;
 }
 
-.filter {
+.filter-list {
 	margin-bottom: 34px;
 	margin-top: 0;
 	margin-right: auto;
 	margin-left: auto;
 	width: 611px;
-}
 
-.section .filter {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	padding-bottom: 0;
 }
 
-.menu-button {
+.filter-button {
 	background-color: var(--team-dscrp-color);
 	font-weight: 500;
 	font-size: 16px;

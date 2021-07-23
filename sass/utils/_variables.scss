@@ -14,23 +14,3 @@ body {
 	background: var(--prime-white-color);
 	color: var(--primary-color);
 }
-
-.logo-prefix,
-.navmenu-item.current,
-.navmenu-item:hover,
-.navmenu-item:focus,
-.contacts-header-link-mail:hover,
-.contacts-header-link-mail:focus,
-.contacts-header-link-phone:hover,
-.contacts-header-link-phone:focus,
-.contacts-link-mail-footer:focus,
-.contacts-link-phone-footer:focus,
-.contacts-link-mail-footer:hover,
-.contacts-link-phone-footer:hover,
-.customers-list-item-link:hover,
-.customers-list-item-link:focus,
-.navmenu-item.current::after,
-.navmenu-item:hover::after,
-.navmenu-item:focus::after {
-	color: var(--link-logo-color);
-}
